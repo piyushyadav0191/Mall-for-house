@@ -53,13 +53,13 @@ button {
 
 .textarea {
   padding: 1rem 1.5rem;
-  height: 300px;
+  height: 150px;
   border-radius: 1rem;
 }
 
 .primaryButton {
   cursor: pointer;
-  background: #00cc66;
+  background: #33e1ed;
   border-radius: 1rem;
   padding: 0.85rem 2rem;
   color: #ffffff;
@@ -78,7 +78,6 @@ button {
   top: -3%;
   right: -2%;
 }
-
 .editIcon {
   cursor: pointer;
   position: absolute;
@@ -92,7 +91,7 @@ button {
 .listingDetails,
 .category,
 .explore {
-  margin: 1rem;
+  margin: 5px;
 }
 @media (min-width: 1024px) {
   .pageContainer,
@@ -122,7 +121,7 @@ button {
   width: 64px;
   height: 64px;
   border: 8px solid;
-  border-color: #00cc66 transparent #00cc66 transparent;
+  border-color: #33e1ed transparent #33e1ed transparent;
   border-radius: 50%;
   animation: spin 1.2s linear infinite;
 }
@@ -187,12 +186,15 @@ button {
 
 .nameInput {
   margin-bottom: 2rem;
-  background: url('./assets/svg/badgeIcon.svg') #ffffff 2.5% center no-repeat;
+  background: url('https://cdn-icons-png.flaticon.com/512/1828/1828439.png') #ffffff 2.5% center no-repeat;
+  background-size: 20px;
 }
 
 .emailInput {
   margin-bottom: 2rem;
-  background: url('./assets/svg/personIcon.svg') #ffffff 2.5% center no-repeat;
+  background: url('https://cdn-icons-png.flaticon.com/512/561/561127.png') #ffffff 2.5% center no-repeat;
+  
+  background-size: 20px;
 }
 
 .passwordInputDiv {
@@ -201,7 +203,8 @@ button {
 
 .passwordInput {
   margin-bottom: 2rem;
-  background: url('./assets/svg/lockIcon.svg') #ffffff 2.5% center no-repeat;
+  background: url('https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/104-512.png') #ffffff 2.5% center no-repeat;
+  background-size: 21px;
 }
 
 .showPassword {
@@ -214,9 +217,10 @@ button {
 
 .forgotPasswordLink {
   cursor: pointer;
-  color: #00cc66;
+  color: #33e1ed;
   font-weight: 600;
   text-align: right;
+  margin-bottom: 12px;
 }
 
 .signInBar,
@@ -245,6 +249,7 @@ button {
 .signUpText {
   font-size: 1.5rem;
   font-weight: 700;
+  margin-top: 1px;
 }
 
 .signInButton,
@@ -254,7 +259,7 @@ button {
   align-items: center;
   width: 3rem;
   height: 3rem;
-  background-color: #00cc66;
+  background-color: #33e1ed;
   border-radius: 50%;
 }
 @media (min-width: 1024px) {
@@ -265,7 +270,6 @@ button {
 }
 
 .socialLogin {
-  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,7 +283,7 @@ button {
   padding: 0.75rem;
   margin: 1.5rem;
   width: 3rem;
-  height: 3rem;
+  height: 2rem;
   background-color: #ffffff;
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
@@ -290,8 +294,7 @@ button {
 }
 
 .registerLink {
-  margin-top: 4rem;
-  color: #00cc66;
+  color: #33e1ed;
   font-weight: 600;
   text-align: center;
   margin-bottom: 3rem;
@@ -452,7 +455,7 @@ button {
   margin-top: 0.5rem;
   font-weight: 600;
   font-size: 1.1rem;
-  color: #00cc66;
+  color: #33e1ed;
   margin-bottom: 0;
   display: flex;
   align-items: center;
@@ -525,7 +528,7 @@ button {
 
 .listingType {
   padding: 0.25rem 0.5rem;
-  background-color: #00cc66;
+  background-color: #33e1ed;
   color: #ffffff;
   border-radius: 2rem;
   display: inline;
@@ -626,7 +629,7 @@ button {
   font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
-  background-color: #00cc66;
+  background-color: #33e1ed;
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
 }
@@ -644,7 +647,7 @@ button {
 .changePersonalDetails {
   cursor: pointer;
   font-weight: 600;
-  color: #00cc66;
+  color: #33e1ed;
 }
 
 .profileCard {
@@ -739,7 +742,7 @@ button {
   align-items: center;
 }
 .formButtonActive {
-  background-color: #00cc66;
+  background-color: #33e1ed;
   color: #ffffff;
 }
 
@@ -794,7 +797,7 @@ button {
   width: 100%;
 }
 .formInputFile::-webkit-file-upload-button {
-  background-color: #00cc66;
+  background-color: #33e1ed;
   border: none;
   color: #ffffff;
   font-weight: 600;
