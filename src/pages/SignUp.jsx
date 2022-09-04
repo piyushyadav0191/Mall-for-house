@@ -53,7 +53,7 @@ function SignUp() {
       formDataCopy.timestamp = serverTimestamp()
 
       await setDoc(doc(db, 'users', user.uid), formDataCopy)
-
+      toast.success('Registration succesfully')
       navigate('/')
     } catch (error) {
       toast.error('Something went wrong with registration')
