@@ -36,6 +36,7 @@ function SignIn() {
       )
 
       if (userCredential.user) {
+        toast.success('Login Succesfully')
         navigate('/')
       }
     } catch (error) {
