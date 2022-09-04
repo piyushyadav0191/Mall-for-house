@@ -150,12 +150,14 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 10%;
 }
 
 .navbarNav {
   width: 100%;
   margin-top: 0.75rem;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .navbarListItems {
@@ -317,7 +319,7 @@ button {
 }
 
 .exploreCategoryHeading {
-  margin-top: 3rem;
+  margin-top: 2px;
 }
 
 .swiper-container {

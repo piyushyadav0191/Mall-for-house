@@ -9,10 +9,8 @@ function Explore() {
       <header>
         <p className='pageHeader'>Explore</p>
       </header>
-
       <main>
         <Slider />
-
         <p className='exploreCategoryHeading'>Categories</p>
         <div className='exploreCategories'>
           <Link to='/category/rent'>
